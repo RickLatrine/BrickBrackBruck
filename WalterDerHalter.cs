@@ -8,17 +8,16 @@ namespace BrickBrackBruck
 
         public void Dazu(string pfad)
         {
-            
-
+                        
         }
 
 
         public void GibLaut()
         {
-            Console.WriteLine("Brick!");    
-            Console.WriteLine("Brack!");    
-            Console.WriteLine("Bruck!");    
-            Console.WriteLine("Breck!");        
+            Console.WriteLine("Walter: Brick!");    
+            Console.WriteLine("Walter: Brack!");    
+            Console.WriteLine("Walter: Bruck!");    
+            Console.WriteLine("Walter: Breck!");        
         }
     }
 }

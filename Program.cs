@@ -5,12 +5,15 @@ namespace BrickBrackBruck
     class Program
     {
         static void Main(string[] args)
-        {           
-            Console.WriteLine("Walter sag was!");    
+        {
+            Console.WriteLine("Admin: Walter sag mal was!");
 
             WalterDerHalter wdh = new WalterDerHalter();
             
             wdh.GibLaut();
         }
+
     }
+
 }
+
