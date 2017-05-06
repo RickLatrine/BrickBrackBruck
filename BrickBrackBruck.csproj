@@ -1,8 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+    <Authors>Groccu;Rick</Authors>
+    <NeutralLanguage>de-GE</NeutralLanguage>
+    <AssemblyTitle>Brick Brack Bruck</AssemblyTitle>
+    <Description>Best of Rick</Description>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.1</TargetFramework>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="AngularJS.Core" Version="1.6.4"/>
+    <PackageReference Include="System.ValueTuple" Version="4.3.0"/>
+  </ItemGroup>
 </Project>
