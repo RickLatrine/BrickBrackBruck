@@ -21,6 +21,14 @@ namespace BrickBrackBruck
                 Console.WriteLine("Name: " + name);
             }
 
+            Console.WriteLine("Admin: Walter sag mal was!");
+
+            WalterDerHalter wdh = new WalterDerHalter();
+            
+            wdh.GibLaut();
         }
+
     }
+
 }
+
