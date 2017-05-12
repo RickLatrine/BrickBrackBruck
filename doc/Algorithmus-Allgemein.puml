@@ -1,0 +1,15 @@
+Algemeiner Ablauf des Algorithmus
+=================================
+
+@startuml
+(*) --> Initialisierung
+--> Fitness
+if "Terminierung?" then
+    --> [weiter] Selektion
+    --> Kreuzung
+    --> Mutation
+    --> [nächste Generation] Fitness
+else
+    --> [fertig] (*)
+endif
+@enduml
