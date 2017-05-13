@@ -1,0 +1,18 @@
+Glossar zum BrickBrackBruck Projekt
+===================================
+
+Population          ist die Menge an verschienden Kandidaten zu einer gesuchten Problemlösung
+Initialisierung     ist die zufällige Erstellung der ersten Generation
+Generation          ist die Population nachdem eine Mutation, Kreuzung, Fitness und Selektion durchgeführt wurde
+Kandidat            ist ein Anwärter auf eine Problemlösung
+Gen                 ist Teil eines Chromosoms, optimalerweise eine Ausprägung von 0 und 1
+Chromosom           ist eine Kette von Genen und beschreibt einen Kandidaten
+Mutation            ist eine zufällige Veränderung des Chromosoms zu einem neuen Kandidaten
+Kreuzung            ist eine Vereinigung von Chromosomen zu einem neuen Kandidaten
+Selektion           ist die Auswahl von Kandidaten für eine nächste Generation
+Fitness             ist eine Bewertung wie gut ein Kandidat ein Problem löst
+Parameter           ist eine Konfiguration des Algorithmus zur Mutationsrate, Populationsgröße und Kreuzungsrate
+Mutationsrate       ist ein Grad wie stark ein Chromosom sich ändern darf
+Populationsgröße    ist die Anzahl der Kandidaten in einer Generation
+Kreuzungsrate       ist ein Grad wie oft eine Kreuzung in einer Generation erfolgen soll
+Terminierung        ist die Entscheidung für das Ende des Algorithmus
