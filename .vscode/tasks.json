@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/BrickBrackBruck.csproj"
+                "${workspaceRoot}/BrickBrackBruck/BrickBrackBruck.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
