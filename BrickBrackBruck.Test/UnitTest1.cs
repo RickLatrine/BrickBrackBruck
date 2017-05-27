@@ -8,7 +8,7 @@ namespace test
         [Fact]
         public void Test1()
         {
-            Console.WriteLine("Hello Tests!");
+            Console.WriteLine("Hello Tests! Umlaut: öäöü");
         }
     }
 }

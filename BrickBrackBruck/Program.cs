@@ -7,25 +7,21 @@ namespace BrickBrackBruck
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            string[] data = {"aaa", "bbb"};
-            var names = new List<string>(data);
+            // einmal gesetzt, bleibt die Einstellung bis die Console neu gestartet wird.
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            var tup = (harry:1, stefan:2, derrick:3);
-
-            Console.WriteLine("Tuple 1: " + tup.derrick);                
-            Console.WriteLine("Tuple 2: " + tup.harry);                
-            Console.WriteLine("Tuple 3: " + tup.stefan);                
-
-            foreach (var name in names) {
-                Console.WriteLine("Name: " + name);
-            }
-
-            Console.WriteLine("Admin: Walter sag mal was!");
-
-            WalterDerHalter wdh = new WalterDerHalter();
+            Console.WriteLine("Mutter: Hallo! Ich bin Mutter. Meine Kinder sind: ");
+            Console.WriteLine("Mutter: Walter der Halter");
+            Console.WriteLine("Mutter: Evolot Freund des Lanzelot");
+                        
+            WalterDerHalter walter = new WalterDerHalter();
             
-            wdh.GibLaut();
+            if (args.Length > 0)
+                walter.VerzeichnisHinzufügen( args[0] );
+
+            Console.WriteLine("Mutter: Walter sag mal was!");
+            walter.hoseRunter();            
+
         }
 
     }
