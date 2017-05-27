@@ -5,11 +5,11 @@ namespace de.brick {
     /**
     Steuert den Ablauf des Algorithmus auf einer abstrakten Ebene.
     */
-    public class AblaufSteuerung
+    public class Evulot
     {
         private readonly Population population;
 
-        public AblaufSteuerung(Population population) {
+        public Evulot(Population population) {
             this.population = population;
         }
 
